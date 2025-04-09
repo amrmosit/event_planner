@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer'
 import './EventPlanner.css'; // Import CSS file for styling
 
 const EventPlanner = () => {
@@ -7,7 +8,7 @@ const EventPlanner = () => {
             <header>
                 <h1>Welcome to Event Planner</h1>
             </header>
-            <div className="event-planner-container">
+
             <section className="description">
                 <p>
                     Plan and organize your events effortlessly with Event Planner. From
@@ -74,8 +75,10 @@ const EventPlanner = () => {
                     <button className="submit-button">Send</button>
                 </form>
             </section>
+            <Footer/>
         </div>
-        </div>
+
+
     );
 };
 
